@@ -14,6 +14,47 @@
       text-align: center;
     }
 
+    header {
+      background: #111;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00bfff;
+      margin: 0;
+    }
+
+    nav {
+      margin: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #00bfff;
+    }
+
+    .search-box {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+
+    .search-box input {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
     .about {
       max-width: 900px;
       margin: 80px auto;
@@ -39,29 +80,53 @@
       color: #00bfff;
       font-weight: 600;
     }
+
+    .btn {
+      background-color: #00bfff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .btn:hover {
+      background-color: #009acd;
+    }
   </style>
 </head>
 <body>
 
+  <header>
+    <h1>KUPIO</h1>
+
+    <nav>
+      <a href="front page.html">Home</a>
+      <a href="shop1.html">Shop</a>
+      <a href="about.html" class="active">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+  </header>
+
   <section class="about">
     <h2>About <span class="highlight">Kupio</span></h2>
-
-    <p>
-      <strong>Kupio</strong> is not just about socks its about redefining comfort, quality, and style from the ground up.  
-      We believe your socks should do more than just cover your feet; they should inspire confidence, comfort, and creativity.
+ <strong>Kupio</strong> — Crafted for those who refuse the ordinary.
     </p>
 
     <p>
-      Designed with care and crafted from premium fabrics, <span class="highlight">Kupio Socks</span> blend fashion with function.  
-      Whether you're heading to the gym, the office, or lounging at home, Kupio keeps your feet feeling fresh, cozy, and ready for anything.
+      Where design meets precision. Sustainable materials. Timeless silhouettes.
     </p>
 
     <p>
-      Our mission is simple — to make every step count with sustainable materials, bold designs,  
-      and a commitment to comfort that never fades.
+      Elevate your everyday — quiet luxury, considered details, lasting comfort.
     </p>
 
-    <img src="" alt="">
+    <button class="btn">Discover the Collection</button>
 
   </section>
 

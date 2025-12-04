@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kupio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <header>
+    <h1>KUPIO</h1>
+    <nav>
+      <a href="front page.html">Home</a>
+      <a href="shop1.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+  </header>
+
+  <main class="contact">
+    <section class="contact-info">
+      <h2>Contact</h2>
+      <p class="lead">Inquiries, collaborations, and support. We respond within 48 hours.</p>
+    </section>
+
+    <section class="contact-form">
+      <form action="#" method="post" aria-label="Contact form">
+        <div class="row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your name">
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>

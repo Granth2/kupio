@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kupio — Product</title>
+  <link rel="stylesheet" href="1widget.css">
+
+  <style>
+    .product-media .product-img {
+      max-width: 720px;
+      max-height: 900px;
+      object-fit: contain;
+    }
+
+    .product-row.no-box { gap: 28px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KUPIO</h1>
+  <nav>
+    <a href="front page.html">Home</a>
+    <a href="shop1.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="order">
+  <div class="product-row no-box">
+    <div class="product-media">
+      <a href="shop1.html#storage"><img src="shop3.png" class="product-img" alt="Small LCD Module"></a>
+    </div>
+
+    <div class="product-details">
+      <h2 class="product-name">Fabric Storage Boxes</h2>
+      <p class="price">₹1,299</p>
+
+      <label for="qty-2">Quantity</label>
+      <input id="qty-2" class="qty" type="number" value="1" min="1">
+
+      <button class="add-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <section class="suggestions">
+    <h3 class="suggest-title">You might also like</h3>
+    <div class="suggest-grid">
+      <a class="suggest-link" href="shop1.html#wallets">
+        <div class="suggest-item">
+          <img src="wallet.png" class="product-img" alt="Wallet">
+          <div class="product-name">Leather Wallet</div>
+          <div class="price">₹799</div>
+        </div>
+      </a>
+
+      <a class="suggest-link" href="shop1.html#phones">
+        <div class="suggest-item">
+          <img src="image8.png" class="product-img" alt="Phone">
+          <div class="product-name">Smartphone</div>
+          <div class="price">₹99,999</div>
+        </div>
+      </a>
+
+      <a class="suggest-link" href="shop1.html#perfumes">
+        <div class="suggest-item">
+          <img src="perfume.png" class="product-img" alt="Perfume">
+          <div class="product-name">Perfume</div>
+          <div class="price">₹1,499</div>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
